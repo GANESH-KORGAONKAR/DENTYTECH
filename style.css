@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 00 50px;
+}
+
+.part1, .part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.part1 h3:hover, .part1 i:hover {
+    background: rgb(197, 197, 197);
+    cursor: pointer;
+}
+
+.part1 h3 , .part1 i{
+    padding: 8px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 18px;
+} 
+
+.part2 h1{
+    font-size: 30px;
+}
+
+.part2 i {
+    font-size: 30px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.part3 button {
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 18px;
+}
+
+#btn1:hover {
+    background: rgb(197, 197, 197);
+    cursor: pointer;
+}
+
+#btn2 {
+    background: rgb(255, 136, 0);
+    border: none;
+    color: white;
+}
+
+#btn2:hover {
+    background: rgb(196, 110, 12);
+    cursor: pointer;
+}
+
+#main-h1 {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 180px;
+    font-weight: 500;
+}
+
+img{
+    height: 450px;
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+#img4{
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+#img3{
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+
+#img2{
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+#img1{
+    transform: translate(-50%, -50%) rotate(-40deg);
+}
+
+#leftCorner {
+    position: absolute;
+    left: 3%;
+    bottom: 5%;
+}
+
+#leftCorner i {
+    font-size: 30px;
+    color:  rgb(255, 136, 0);
+}
+
+#rightCorner {
+    position: absolute;
+    right: 3%;
+    bottom: 5%;
+}
+
+#rightCorner i {
+    font-size: 30px;
+}
